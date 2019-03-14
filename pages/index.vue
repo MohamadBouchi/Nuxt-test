@@ -11,6 +11,15 @@
 
 
 export default {
+  head() {
+    return {
+      title: 'Home',
+      meta: [
+        { name: 'description', content: 'home description'},
+        { name: 'keyword', content: 'home'},
+      ]
+    }
+  }
 }
 </script>
 
